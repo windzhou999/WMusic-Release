@@ -1,9 +1,9 @@
 {
-  "versionCode": 8,
-  "versionName": "1.0.7",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.0.7/netmusiclite-1.0.7.apk",
-  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.0.7.apk",
-  "sha256": "05819cadcba15f35364d386e35a215211a58f8eec2bac6922fc75982f98dddc8",
+  "versionCode": 9,
+  "versionName": "1.0.8",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.0.8/netmusiclite-1.0.8.apk",
+  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.0.8.apk",
+  "sha256": "1df180da320287e4fe2dbe3f3739ec513c28d798291111b2300ed5e414967cfe",
   "changelog": "修复：更新包下载完成不自动拉起安装器；新增：每次启动静默检测新版本，播放页顶部提示胶囊；未授权时自动引导开启安装权限",
   "force": false,
   "updatedAt": "2026-10-02"

@@ -1,0 +1,10 @@
+{
+  "versionCode": 5,
+  "versionName": "1.0.4",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.0.4/WMusic-1.0.4.apk",
+  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/WMusic-1.0.4.apk",
+  "sha256": "31325c7d6985f3db4f6927defa3f80ca79e37f48351877da9740f2a6382c6206",
+  "changelog": "更多残留修复；发音按钮适配",
+  "force": false,
+  "updatedAt": "2026-10-02"
+}

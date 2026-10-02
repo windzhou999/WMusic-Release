@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/icon.png" width="120" alt="WMusic">
+<img src="assets/icon.png" width="120" alt="NetMusicLite">
 
-# WMusic
+# NetMusicLite
 
 **一个为 Wear OS 手表打造的网易云音乐客户端 — 把歌单戴在手腕上**
 
@@ -30,7 +30,7 @@
 **方式一：adb 安装（推荐）**
 
 ```bash
-adb install -r WMusic-1.0.4.apk
+adb install -r netmusiclite-1.0.6.apk
 ```
 
 **方式二：手表本地安装**
@@ -39,7 +39,7 @@ adb install -r WMusic-1.0.4.apk
 
 ## 应用内更新通道
 
-本仓库根目录的 `update.json` 是 WMusic 的版本清单（事实来源）。自 v1.0.5 起，应用内入口 **设置 → 关于应用 → 检查更新** 会拉取该清单，对比 `versionCode` 后弹窗提示，下载完成并校验 SHA-256 后自动拉起系统安装器。
+本仓库根目录的 `update.json` 是 NetMusicLite 的版本清单（事实来源）。自 v1.0.5 起，应用内入口 **设置 → 关于应用 → 检查更新** 会拉取该清单，对比 `versionCode` 后弹窗提示，下载完成并校验 SHA-256 后自动拉起系统安装器。
 
 清单地址：
 
@@ -50,6 +50,7 @@ adb install -r WMusic-1.0.4.apk
 
 | 版本 | 更新内容 |
 |------|----------|
+| **v1.0.6** | 首次登录使用向导；登录二维码加大 20%；修复向导页按钮裁切；应用改名 netmusiclite |
 | **v1.0.5** | 关于应用页新增「检查更新」；接入 GitHub 远程更新通道 |
 | **v1.0.4** | 更多残留修复；发音按钮适配 |
 | **v1.0.3** | 触点缩放；主页右滑退出；原路返回 |
@@ -70,6 +71,6 @@ adb install -r WMusic-1.0.4.apk
 
 <div align="center">
 
-**WMusic** · Made with ❤️ for your wrist
+**NetMusicLite** · Made with ❤️ for your wrist
 
 </div>

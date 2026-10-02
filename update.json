@@ -1,10 +1,10 @@
 {
-  "versionCode": 5,
-  "versionName": "1.0.4",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.0.4/WMusic-1.0.4.apk",
-  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/WMusic-1.0.4.apk",
-  "sha256": "31325c7d6985f3db4f6927defa3f80ca79e37f48351877da9740f2a6382c6206",
-  "changelog": "更多残留修复；发音按钮适配",
+  "versionCode": 6,
+  "versionName": "1.0.5",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.0.5/WMusic-1.0.5.apk",
+  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/WMusic-1.0.5.apk",
+  "sha256": "59072bf499cc1abeeec572c7868b1ece976d6de52a7e5d728a0dc9ece9fb366f",
+  "changelog": "新增：关于应用页「检查更新」入口，接入 GitHub 远程更新通道",
   "force": false,
   "updatedAt": "2026-10-02"
 }

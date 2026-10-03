@@ -1,10 +1,10 @@
 {
-  "versionCode": 10,
-  "versionName": "1.0.9",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.0.9/netmusiclite-1.0.9.apk",
-  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.0.9.apk",
-  "sha256": "4819cb1008128e4728ea8c38a3c7447819ac96b5f22aa3826ee59416046d515d",
-  "changelog": "新版使用向导（手势图册 + 点歌名进百科/点艺人进主页演示 + 捐赠页）；设置新增字体大小/粗细调节；修复私人电台偶发重复播放、专辑与「我喜欢」页封面背景渐变断裂；默认浅色主题、种子色降饱和",
+  "versionCode": 11,
+  "versionName": "1.1",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.1/netmusiclite-1.1.apk",
+  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.1.apk",
+  "sha256": "3356f7c36b94dd80c475b4dc7e5786c82ad4f7c812145f90c388c6b0bf4e8384",
+  "changelog": "华为表冠适配修正：转表冠无响应、步进与方向校准；扩展适配非 ColorOS 手表（应用内音量面板、系统返回接管、表冠触感）；向导第一页新增方表/圆表选择；新增「关于高级版」公告页",
   "force": false,
-  "updatedAt": "2026-10-03"
+  "updatedAt": "2026-10-04"
 }

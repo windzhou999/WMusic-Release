@@ -1,10 +1,10 @@
 {
-  "versionCode": 11,
-  "versionName": "1.1",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.1/netmusiclite-1.1.apk",
-  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.1.apk",
-  "sha256": "3356f7c36b94dd80c475b4dc7e5786c82ad4f7c812145f90c388c6b0bf4e8384",
-  "changelog": "华为表冠适配修正：转表冠无响应、步进与方向校准；扩展适配非 ColorOS 手表（应用内音量面板、系统返回接管、表冠触感）；向导第一页新增方表/圆表选择；新增「关于高级版」公告页",
+  "versionCode": 12,
+  "versionName": "1.12",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.12/netmusiclite-1.12.apk",
+  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.12.apk",
+  "sha256": "ba2d6357d7a9bef89a588bcbf9410563fb34cb2befd3f03936e0be363412e2cd",
+  "changelog": "修复搜索框 bug：输入首字符不再跳出输入，键盘与焦点全程保持；本地音乐新增歌词支持：读取同名 .lrc 与音频内嵌歌词，缺失时按标题+艺人在线匹配兜底，歌词页标注来源",
   "force": false,
   "updatedAt": "2026-10-04"
 }

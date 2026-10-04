@@ -3,8 +3,8 @@
   "versionName": "1.13",
   "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.13/netmusiclite-1.13.apk",
   "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.13.apk",
-  "sha256": "00e1d62ef97a2532ef20170c6668e5ac7725f926b9c594caeaf89778056fc3a1",
-  "changelog": "新增表冠适配开关：设置里可对「列表页」「音量页」分别正反调节表冠方向；修复带翻译歌词的「重影」问题；修复更新后本地音乐失效、提升导入健壮性；修复应用内音量界面计时问题",
+  "sha256": "c4a9da8b5c717b9afeb6bef14da093f7b78b0557d9d86855daa9192329a583a7",
+  "changelog": "新增表冠适配开关：设置里可对「列表页」「音量页」分别正反调节表冠方向；修复带翻译歌词的「重影」问题；修复更新后本地音乐失效、提升导入健壮性；修复应用内音量界面计时问题；修复本地歌曲歌词页「两层」错位",
   "force": false,
   "updatedAt": "2026-10-05"
 }

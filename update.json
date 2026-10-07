@@ -1,10 +1,10 @@
 {
-  "versionCode": 15,
-  "versionName": "1.15",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.15/netmusiclite-1.15.apk",
-  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.15.apk",
-  "sha256": "9afa54935a7d8d55a402017b31caf606f437daef763059e59f11e1c6893c5942",
-  "changelog": "新增「封面模糊」外观模式与播放页面风格（取色/封面模糊/自定义）、保留取色开关、歌词逐字动画、长按进度条与访客模式；更新包改存系统「下载」夹；修复封面模糊进入时底图闪出、选自定义图片后玻璃卡片与取色错跟壁纸，及头图黑边、专辑 Tab 记忆、切评论黑屏等问题",
+  "versionCode": 17,
+  "versionName": "1.17",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.17/netmusiclite-1.17.apk",
+  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.17.apk",
+  "sha256": "584381591a98c35071d7e36371dd081ea36adf9801dc90497d6c4f05334e210f",
+  "changelog": "新增播放页「封面模糊明暗对调」开关：深色外观下可选用浅色封面模糊、浅色下可选用深色，反向调节播放页与歌词页的明暗；设置新增「特别鸣谢」栏目（免责声明上方入口，鸣谢名单每次进入顺序随机）",
   "force": false,
   "updatedAt": "2026-10-07"
 }

@@ -3,8 +3,8 @@
   "versionName": "1.2.1",
   "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.2.1/netmusiclite-1.2.1.apk",
   "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.2.1.apk",
-  "sha256": "d3a249a3363dc8c032b7af36e191bc6af21fbfd5cbab6e585fe49475b2ca2c2c",
-  "changelog": "新增方形屏幕适配：所有进度条拉直为直线样式，播放页底边栏改为直胶囊、距屏幕底边 20 像素；圆形屏幕显示不受影响",
+  "sha256": "3446d087b52e12f46dbe66a60d80ef59796ce74b4fdae0b0327a98adcd941f13",
+  "changelog": "新增方形屏幕适配：所有进度条拉直为直线样式，播放页底边栏改为直胶囊、距屏幕底边 20 像素；播放页标题、艺人与播放三大按钮整体下移，上一首/下一首按钮与屏幕水平中线对齐；圆形屏幕显示不受影响",
   "force": false,
   "updatedAt": "2026-10-11"
 }

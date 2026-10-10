@@ -1,10 +1,10 @@
 {
-  "versionCode": 19,
-  "versionName": "1.2",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.2/netmusiclite-1.2.apk",
-  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.2.apk",
-  "sha256": "88578736e8525d1db02f6dd4ff0b0ef490eb607ce121385cc6228ed70150766d",
-  "changelog": "表冠转动曲线全面优化：转动、停转、惯性滑行全程无缝衔接，消除断层感；新增 OPPO 手表传感器手势支持（捏一捏等手势直接控制播放）；新装默认外观主题改为封面模糊；修复收藏/新建歌单失败、断网或重启后红心与歌单列表丢失、封面模糊主题歌词取色偏白、音量浮层右滑穿透（小米手表）；耗电优化与离线缓存增强",
+  "versionCode": 20,
+  "versionName": "1.2.1",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.2.1/netmusiclite-1.2.1.apk",
+  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.2.1.apk",
+  "sha256": "d3a249a3363dc8c032b7af36e191bc6af21fbfd5cbab6e585fe49475b2ca2c2c",
+  "changelog": "新增方形屏幕适配：所有进度条拉直为直线样式，播放页底边栏改为直胶囊、距屏幕底边 20 像素；圆形屏幕显示不受影响",
   "force": false,
   "updatedAt": "2026-10-11"
 }

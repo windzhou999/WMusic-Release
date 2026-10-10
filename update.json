@@ -1,10 +1,10 @@
 {
-  "versionCode": 17,
-  "versionName": "1.17",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.17/netmusiclite-1.17.apk",
-  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.17.apk",
-  "sha256": "584381591a98c35071d7e36371dd081ea36adf9801dc90497d6c4f05334e210f",
-  "changelog": "新增播放页「封面模糊明暗对调」开关：深色外观下可选用浅色封面模糊、浅色下可选用深色，反向调节播放页与歌词页的明暗；设置新增「特别鸣谢」栏目（免责声明上方入口，鸣谢名单每次进入顺序随机）",
+  "versionCode": 19,
+  "versionName": "1.2",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.2/netmusiclite-1.2.apk",
+  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.2.apk",
+  "sha256": "88578736e8525d1db02f6dd4ff0b0ef490eb607ce121385cc6228ed70150766d",
+  "changelog": "表冠转动曲线全面优化：转动、停转、惯性滑行全程无缝衔接，消除断层感；新增 OPPO 手表传感器手势支持（捏一捏等手势直接控制播放）；新装默认外观主题改为封面模糊；修复收藏/新建歌单失败、断网或重启后红心与歌单列表丢失、封面模糊主题歌词取色偏白、音量浮层右滑穿透（小米手表）；耗电优化与离线缓存增强",
   "force": false,
-  "updatedAt": "2026-10-07"
+  "updatedAt": "2026-10-11"
 }

@@ -1,10 +1,10 @@
 {
-  "versionCode": 21,
-  "versionName": "1.22",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.22/netmusiclite-1.22.apk",
-  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.22.apk",
-  "sha256": "bf3ab3d59dc6a1fcc700fbcf236b5b2bef0d146ce9ee15c7091eb0ddaa0ec0e3",
-  "changelog": "新增收藏歌单、收藏专辑（歌单/专辑详情页头部一键收藏）与从歌单移除歌曲（自己创建的歌单多选）；歌单添加歌曲补齐官方兼容口径（512/521）；发评论、一起听建房等写操作对齐官方 9.5.90 风控口径并精简请求；设备号去品牌化改标准 UUID",
+  "versionCode": 22,
+  "versionName": "1.23",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.23/netmusiclite-1.23.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.23/netmusiclite-1.23.apk",
+  "sha256": "186d196a83c2f98877898b75ba00ca25af420c32722c672a4a58c19d209d5df2",
+  "changelog": "新增「歌词页屏幕常亮」开关（设置页主题下方）：打开后停留在歌词页时屏幕不自动熄灭，离开歌词页立即恢复系统息屏节奏，默认关闭；修复本地导入歌词的聚焦行不落在屏幕水平中线的问题；更换应用内更新的首选下载镜像，修复更新包下载失败的问题",
   "force": false,
   "updatedAt": "2026-10-11"
 }

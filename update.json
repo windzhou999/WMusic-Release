@@ -1,10 +1,10 @@
 {
-  "versionCode": 22,
-  "versionName": "1.23",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.23/netmusiclite-1.23.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.23/netmusiclite-1.23.apk",
-  "sha256": "186d196a83c2f98877898b75ba00ca25af420c32722c672a4a58c19d209d5df2",
-  "changelog": "新增「歌词页屏幕常亮」开关（设置页主题下方）：打开后停留在歌词页时屏幕不自动熄灭，离开歌词页立即恢复系统息屏节奏，默认关闭；修复本地导入歌词的聚焦行不落在屏幕水平中线的问题；更换应用内更新的首选下载镜像，修复更新包下载失败的问题",
+  "versionCode": 23,
+  "versionName": "1.24",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.24/netmusiclite-1.24.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.24/netmusiclite-1.24.apk",
+  "sha256": "bacf8b08d8d4456f7ccfdd13b2abff57ff46ea63ec3513e5911589f006efd556",
+  "changelog": "修复应用内「检查更新」有时收不到新版本的问题：更新清单不再只取第一个成功的源，而是同时读取 jsDelivr 与 raw 两个源并取版本号较大者——jsDelivr 的分支缓存会在新版发布后一段时间里继续返回旧版清单，旧逻辑拿到旧清单就不再回落兜底源，设备于是显示「已是最新」",
   "force": false,
   "updatedAt": "2026-10-11"
 }

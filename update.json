@@ -1,10 +1,10 @@
 {
-  "versionCode": 20,
-  "versionName": "1.2.1",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.2.1/netmusiclite-1.2.1.apk",
-  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.2.1.apk",
-  "sha256": "3446d087b52e12f46dbe66a60d80ef59796ce74b4fdae0b0327a98adcd941f13",
-  "changelog": "新增方形屏幕适配：所有进度条拉直为直线样式，播放页底边栏改为直胶囊、距屏幕底边 20 像素；播放页标题、艺人与播放三大按钮整体下移，上一首/下一首按钮与屏幕水平中线对齐；圆形屏幕显示不受影响",
+  "versionCode": 21,
+  "versionName": "1.22",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.22/netmusiclite-1.22.apk",
+  "mirror": "https://cdn.jsdelivr.net/gh/windzhou999/WMusic-Release@main/apk/netmusiclite-1.22.apk",
+  "sha256": "bf3ab3d59dc6a1fcc700fbcf236b5b2bef0d146ce9ee15c7091eb0ddaa0ec0e3",
+  "changelog": "新增收藏歌单、收藏专辑（歌单/专辑详情页头部一键收藏）与从歌单移除歌曲（自己创建的歌单多选）；歌单添加歌曲补齐官方兼容口径（512/521）；发评论、一起听建房等写操作对齐官方 9.5.90 风控口径并精简请求；设备号去品牌化改标准 UUID",
   "force": false,
   "updatedAt": "2026-10-11"
 }

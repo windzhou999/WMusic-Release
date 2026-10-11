@@ -1,10 +1,10 @@
 {
   "versionCode": 23,
   "versionName": "1.24",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.24/netmusiclite-1.24.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.24/netmusiclite-1.24.apk",
-  "sha256": "bacf8b08d8d4456f7ccfdd13b2abff57ff46ea63ec3513e5911589f006efd556",
-  "changelog": "修复应用内「检查更新」有时收不到新版本的问题：更新清单不再只取第一个成功的源，而是同时读取 jsDelivr 与 raw 两个源并取版本号较大者——jsDelivr 的分支缓存会在新版发布后一段时间里继续返回旧版清单，旧逻辑拿到旧清单就不再回落兜底源，设备于是显示「已是最新」",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.24/netmusiclite-1.24-r2.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.24/netmusiclite-1.24-r2.apk",
+  "sha256": "f0b4061e3fddbf860ab548806afe37106d45afd097244b27d4af7474beffcabe",
+  "changelog": "修复应用内「检查更新」有时收不到新版本的问题：更新清单不再只取第一个成功的源，而是同时读取 jsDelivr、api.github.com 与 raw 三个源并取版本号较大者——jsDelivr 的分支缓存会在新版发布后一段时间里继续返回旧版清单，旧逻辑拿到旧清单就不再回落兜底源，设备于是显示「已是最新」",
   "force": false,
   "updatedAt": "2026-10-11"
 }

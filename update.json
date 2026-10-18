@@ -1,10 +1,10 @@
 {
-  "versionCode": 23,
-  "versionName": "1.24",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.24/netmusiclite-1.24-r2.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.24/netmusiclite-1.24-r2.apk",
-  "sha256": "f0b4061e3fddbf860ab548806afe37106d45afd097244b27d4af7474beffcabe",
-  "changelog": "修复应用内「检查更新」有时收不到新版本的问题：更新清单不再只取第一个成功的源，而是同时读取 jsDelivr、api.github.com 与 raw 三个源并取版本号较大者——jsDelivr 的分支缓存会在新版发布后一段时间里继续返回旧版清单，旧逻辑拿到旧清单就不再回落兜底源，设备于是显示「已是最新」",
+  "versionCode": 56,
+  "versionName": "1.32",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.32/netmusiclite-1.32.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.32/netmusiclite-1.32.apk",
+  "sha256": "b04df38b094836355498369c9558e891400fe4bd09d466fb58dc0fba65bb6750",
+  "changelog": "新增 Material 主题（使用向导首页可选「默认 / Material」：播放页扇贝播放键与弧形进度、主题色跟随封面取色、按钮亮度随背景自适应）；歌词页逐行扫光重做——光带只归属当前句、折行的长句按显示行逐行推进，没有逐字数据的歌词按字数均分进度，浅色页面下聚焦行亮度自动压暗，设置可关闭扫光（关闭即完全退回原有观感）；玻璃材质统一，卡片以身后真实底图为基准取样，深色主题无壁纸也能用高斯模糊玻璃，并修掉三星表歌词整屏发糊的问题；长按主页卡片可随机抽歌（CoverFlow 选歌）；修复只导入本地音乐时列表滑动闪退、暂停后放着放着突然自己响、表冠滚动时滑动进度条自动隐藏；进一步省电（旋转封面与播放进度改定时驱动、熄屏降频、房间页轮询改状态订阅），新增「关闭表冠调音量」开关；安装权限被拒后不再反复弹窗",
   "force": false,
-  "updatedAt": "2026-10-11"
+  "updatedAt": "2026-10-18"
 }

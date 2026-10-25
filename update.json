@@ -1,10 +1,10 @@
 {
-  "versionCode": 67,
-  "versionName": "1.35",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.35/netmusiclite-1.35.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.35/netmusiclite-1.35.apk",
-  "sha256": "23d128dee82cc2497849f7c7577ad24cb2570ffff7a04b5d815173bb54c44e65",
-  "changelog": "修复小米/HyperOS 等非 Wear OS 5 手表上 m3e 主题一进列表页（搜索、评论等）就闪退：组件按系统标记误判设备带有 Wear 输入库并去加载它，这类 ROM 没有该库会直接崩主线程，现已显式关掉组件内部的表冠触感、改走应用自己的触感。修复 Android 9 及以下机型页面转场崩溃：转场时创建的图形图层在部分老 ROM 上读到空子视图触发空指针，低版本改用不建图层的黑场淡入，返回时不再多罩一层黑。新增「M3E 启动守护」：上次崩溃若发生在 m3e 主题，本次启动自动回退经典主题一次，跳出「打开就闪退、重开还是闪退」的死循环，想继续用可在设置里切回。新增：设置 → 关于应用「导出崩溃日志」，把所有崩溃报告一键写入系统「下载」文件夹并提示导出份数，手表不连电脑也能取到日志。修复：播放中进歌词页不能直接定位到当前句，回退上一版的「秒定位」实现，改回硬定位加居中修正。其他：特别鸣谢新增 5 位。",
+  "versionCode": 69,
+  "versionName": "1.37",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.37/netmusiclite-1.37.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.37/netmusiclite-1.37.apk",
+  "sha256": "f2886e1c0788029ad6a989b6af713ee0ef807e36b6bcaeba7d8c69e4f4a78c44",
+  "changelog": "修复华强北等 Android 9 手表上「界面快速变化」导致的闪退：页面切得快、连续右滑返回、连点进入新页面时，上一页的界面节点已被销毁而系统的绘制/无障碍访问还在访问它，会直接崩主线程。现在所有前进与返回导航统一加了节流（Android 9 及以下约 480ms，其余约 360ms），同一段转场里连点/连滑只生效一次，多余的一次直接忽略；节流拦下时右滑跟手动画会回弹，不会缩到一半停住。音量浮层、进度浮层、播放页更新胶囊、歌词页封面浮层等高频显隐改为「稳定显隐」——快速开关时合并翻转、满 260/320ms 才切换，减少整层界面节点的反复插入与移除。冷启动补栈、登录清栈、漫游页自动进播放页等必须成功的导航已单独放行，不受节流影响。另按真机崩溃报告确证，这次闪退的真凶是 iPod 选歌页（CoverFlow）卡面下方的倒影：低版本的图形图层是一个真实子视图，离开该页时系统仍会重放旧页的绘制，而界面节点已被摘除，于是抛异常崩溃。Android 9 及以下不再创建这个图层（卡片高度、留白与点击区域完全不变，只是不显示倒影），Android 10 及以上倒影照旧。除崩溃修复外无功能变化。",
   "force": false,
   "updatedAt": "2026-10-25"
 }

@@ -1,10 +1,10 @@
 {
-  "versionCode": 65,
-  "versionName": "1.34",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.34/netmusiclite-1.34-r2.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.34/netmusiclite-1.34-r2.apk",
-  "sha256": "3bc173178e89f9006a87a5b33cbf7995c213d731433d8c7e9f9df642e39afc7b",
-  "changelog": "一起听（双人房）全面修通：双方切歌、暂停与拖动进度不再互相拽回，连按播放/暂停也不会错位；手表按上一首/下一首时官方手机端会真正跟着切歌（此前只弹提示不切歌）；房内聊天现在能收到对方消息；房客点歌有确认闭环，加歌不再静默失败；双人房内全员可切歌点歌（乐迷团房仍限房主）；点官方 App 发来的邀请卡可直接进房，过期房间由服务端自动重建。新增：歌单详情页与专辑详情页的列表内搜索，输入中文译名也能命中库里存着外文原名的歌。修复：m3e 私信消息互相堆叠、文本气泡四周空白过大；「收藏的专辑」按钮末字被裁切。优化：经典主题歌单按钮放大、听歌排行按钮缩小；私信支持长按复制全文或拖选局部，私信里的一起听链接自动识别成邀请卡。另：OPPO 手表手势控制不再依赖系统私有类，改为本地传感器识别（双击捏合触发上一首/下一首/暂停继续，单击不动作），且只在开关打开、应用在前台时采集，退后台或息屏立即停止；设置中的实验性开关默认关闭。",
+  "versionCode": 67,
+  "versionName": "1.35",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.35/netmusiclite-1.35.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.35/netmusiclite-1.35.apk",
+  "sha256": "23d128dee82cc2497849f7c7577ad24cb2570ffff7a04b5d815173bb54c44e65",
+  "changelog": "修复小米/HyperOS 等非 Wear OS 5 手表上 m3e 主题一进列表页（搜索、评论等）就闪退：组件按系统标记误判设备带有 Wear 输入库并去加载它，这类 ROM 没有该库会直接崩主线程，现已显式关掉组件内部的表冠触感、改走应用自己的触感。修复 Android 9 及以下机型页面转场崩溃：转场时创建的图形图层在部分老 ROM 上读到空子视图触发空指针，低版本改用不建图层的黑场淡入，返回时不再多罩一层黑。新增「M3E 启动守护」：上次崩溃若发生在 m3e 主题，本次启动自动回退经典主题一次，跳出「打开就闪退、重开还是闪退」的死循环，想继续用可在设置里切回。新增：设置 → 关于应用「导出崩溃日志」，把所有崩溃报告一键写入系统「下载」文件夹并提示导出份数，手表不连电脑也能取到日志。修复：播放中进歌词页不能直接定位到当前句，回退上一版的「秒定位」实现，改回硬定位加居中修正。其他：特别鸣谢新增 5 位。",
   "force": false,
-  "updatedAt": "2026-10-24"
+  "updatedAt": "2026-10-25"
 }

@@ -1,10 +1,10 @@
 {
-  "versionCode": 87,
-  "versionName": "1.40",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.40/netmusiclite-1.40.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.40/netmusiclite-1.40.apk",
-  "sha256": "17ca13482ee2081ccf9a26355ebd053a26b0a58a8eea20dc5d210e030a828ee2",
-  "changelog": "本版自 1.37 起累计更新（一次到位）：新增「我喜欢」页搜索框上方的播放 / 播放模式切换 / 云盘三个入口；新增云盘页，可读云音乐网盘歌曲并直接 ♥ 收藏进「我喜欢」（兼容网页身份，收藏即时生效）。新增耳机逻辑重写：摘下自动暂停、戴上自动续播，一起听与乐迷团里只停本机、戴上自动追平对方进度。修复一起听房内聊天「本机发出第一句后收不到对方消息」——空历史不再被判定为不可用，发送成功或重开面板会重新启用读取通道。修复随机播放下「下一首播放」插队不生效（现在钉进随机计划最前，必播）。修复清除后台后下次打开卡在崩溃页的死循环：崩溃页不再抢占启动，改为首页顶部「上次异常退出 · 点击查看」胶囊，崩溃页首帧由 43 秒改为即时渲染（只画头尾各 3KB，复制在后台读全文）。修复 Android 9 表上界面节点被提前销毁引发的闪退，根宿主在视图摘除后拒绝再布局，绘制期只拦这一类异常并丢帧记录。修复谷歌 / 三星等 Wear OS 表 m3e 右滑返回不可用（非 ColorOS 改用应用内右滑兜底，ColorOS 保持系统原生返回手势）。修复 m3e 侧栏与首页内容重叠、方形表盘侧栏变形（侧栏按钮 +20% 等角弧形，方表改为侧栏竖直 + 内容方形）。新增「加下一首」：按住卡片到下沉动画起手即武装，此时左划把该曲加入下一首，未下沉时左划仍照常进播放页。性能：内置 Baseline Profile（冷启动 / 首页 / 切页 / 滑动路径预编译），侧栏动画期间首页不再每帧重组，压暗改为层内黑罩并去掉整屏 saveLayer，冷启动与动画明显更顺。另修经典主题右滑退出被误屏蔽的回归。",
+  "versionCode": 89,
+  "versionName": "1.41",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.41/netmusiclite-1.41.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.41/netmusiclite-1.41.apk",
+  "sha256": "94d6580882d24877ad44ac57884c6289e5931439ceffed8f3e4d41e0fa516a9e",
+  "changelog": "本版为 1.40 的增量更新（1.40 的累计改动见上一版说明）。新增：「我的账号」页的会员成长值卡（黑胶乐签）。打开即显示当前成长值余额与等级；每日签到按官方客户端口径领取，按钮随状态显示「签到 / 签到中 / 已签到」，成功后提示「签到成功，成长值 +N」并即时刷新余额；成长任务有可领的成长值时按钮变为「一键领取 +N」，按官方 GET 口径一次领完全部可领任务，不用逐条点。功能仅此一项，其余界面无变化。",
   "force": false,
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-01"
 }

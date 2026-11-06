@@ -1,10 +1,10 @@
 {
-  "versionCode": 89,
-  "versionName": "1.41",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.41/netmusiclite-1.41.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.41/netmusiclite-1.41.apk",
-  "sha256": "94d6580882d24877ad44ac57884c6289e5931439ceffed8f3e4d41e0fa516a9e",
-  "changelog": "本版为 1.40 的增量更新（1.40 的累计改动见上一版说明）。新增：「我的账号」页的会员成长值卡（黑胶乐签）。打开即显示当前成长值余额与等级；每日签到按官方客户端口径领取，按钮随状态显示「签到 / 签到中 / 已签到」，成功后提示「签到成功，成长值 +N」并即时刷新余额；成长任务有可领的成长值时按钮变为「一键领取 +N」，按官方 GET 口径一次领完全部可领任务，不用逐条点。功能仅此一项，其余界面无变化。",
+  "versionCode": 91,
+  "versionName": "1.43",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.43/netmusiclite-1.43.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.43/netmusiclite-1.43.apk",
+  "sha256": "467c840fc8143dedfb9fb10aec5efd7b2afb1aa2581292572ca2ff8874a4389c",
+  "changelog": "本版含 1.42（未单独下发）的内容。① 歌词页「屏幕常亮」在 Wear OS 上也改回窗口常亮标志：此前改用系统微光 / AOD 方案接管，刷新率撑不住逐字扫光与封面模糊，进歌词页明显掉帧，现已整体回退，Wear、OPPO 与手机统一走同一套逻辑（OPPO 行为与之前完全一致），常亮仍只在你停留歌词页时生效、离开即恢复系统息屏节奏。② Android 9 老表崩溃加固二：11-05 真机（展锐 CD_Watch_A）崩溃报告确证，异常从系统视图重绘的隐藏快速路径直接抛出、不经过上一版加拦截的那一层，因此 1.38 / 1.43 之前的守卫漏拦它。现在 Android 9 及以下把「子视图失效」转为「宿主整体失效」，强制系统走正常重建路径，使异常回到可捕获、可丢帧的那一层；同时给 Material 主题的公告弹窗补上显示 / 关闭记录（它有自己的窗口，宿主覆盖不到），便于下次同类报告直接定性。除以上两项外无功能变化。",
   "force": false,
-  "updatedAt": "2026-11-01"
+  "updatedAt": "2026-11-06"
 }

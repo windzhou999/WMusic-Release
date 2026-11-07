@@ -1,10 +1,10 @@
 {
-  "versionCode": 93,
-  "versionName": "1.45",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.45/netmusiclite-1.45.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.45/netmusiclite-1.45.apk",
-  "sha256": "5f245f7b12d3330c29692f2143bfc825d563485fd139fb4508aa52f8efa781dd",
-  "changelog": "修复「下载或播放时报网络错误，其实根本不是网络问题」：服务端返回的空直链在解析后变成字面文本 \"null\"，被当成地址交给下载器，报错还被算成网络故障、反复重试。现在空直链会被正确识别，下载前先校验地址格式，失败时记录服务端返回的原始 code 与费用字段便于定位。同时按官方客户端口径补齐拒因提示：本月会员下载额度已满（服务端返回 -103）会明确告诉你是额度问题；VIP 专享、无版权、不支持下载这类重试也没用的原因，不再当成网络抖动反复重试。",
+  "versionCode": 94,
+  "versionName": "1.46",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.46/netmusiclite-1.46.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.46/netmusiclite-1.46.apk",
+  "sha256": "a43ffbc11a4c67970ce875e290e2c0e45fa66204b8c261c3bd694ff32561c87f",
+  "changelog": "私信两项改进。① 发送失败不再一律提示「私信接口不可用」：现在按服务端返回码给出具体原因——250 设备安全验证、2001-2004 / 2201 / 2202 对方隐私设置、301 登录失效、-1 网络异常，发消息、邀请一起听、分享歌曲失败时都会直接告诉你是哪一种。② 修复 Material 主题私信里时间行压到消息气泡上的问题：列表容器会把同一项的多个根组件叠在同一坐标，现在时间行、列表标题与状态提示都改为和气泡同列排列，显示顺序恢复正常。",
   "force": false,
   "updatedAt": "2026-11-07"
 }

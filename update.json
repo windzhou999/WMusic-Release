@@ -1,10 +1,10 @@
 {
-  "versionCode": 92,
-  "versionName": "1.44",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.44/netmusiclite-1.44.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.44/netmusiclite-1.44.apk",
-  "sha256": "9a5a9f7f99864bb4141758acd30e50bc1e21dffc1105cc4c360ad36abca74911",
-  "changelog": "本版为播放服务规范化整改，界面外观不变。① 修 OPPO / Android 11 上「从后台拉起播放时崩溃」：前台路径改回直接启动服务，只有后台拉起才走带时限的前台服务契约，并加 3.8 秒看门狗 —— 若超时仍未进入前台，主动取消契约而不是让系统抛异常杀进程（依据 1.43 真机崩溃报告）。② 接入音频焦点：申请、监听、闪避与放弃齐全，别的软件提示音时自动压低音量、通话或导航播报时暂停，结束后按恢复意图自动续播，不再与其他音频应用抢声。③ 通知体验：点通知直达播放页（游客模式的路由也已放行），通知带封面大图标（取图失败自动异步重试），通知不再显示时间戳，通知权限改为首次真正播放时才申请、被拒仍可正常听。④ 侧边音量键可直接调节播放音量。",
+  "versionCode": 93,
+  "versionName": "1.45",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.45/netmusiclite-1.45.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.45/netmusiclite-1.45.apk",
+  "sha256": "5f245f7b12d3330c29692f2143bfc825d563485fd139fb4508aa52f8efa781dd",
+  "changelog": "修复「下载或播放时报网络错误，其实根本不是网络问题」：服务端返回的空直链在解析后变成字面文本 \"null\"，被当成地址交给下载器，报错还被算成网络故障、反复重试。现在空直链会被正确识别，下载前先校验地址格式，失败时记录服务端返回的原始 code 与费用字段便于定位。同时按官方客户端口径补齐拒因提示：本月会员下载额度已满（服务端返回 -103）会明确告诉你是额度问题；VIP 专享、无版权、不支持下载这类重试也没用的原因，不再当成网络抖动反复重试。",
   "force": false,
   "updatedAt": "2026-11-07"
 }

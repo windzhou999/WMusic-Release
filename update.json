@@ -1,10 +1,10 @@
 {
-  "versionCode": 91,
-  "versionName": "1.43",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.43/netmusiclite-1.43.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.43/netmusiclite-1.43.apk",
-  "sha256": "467c840fc8143dedfb9fb10aec5efd7b2afb1aa2581292572ca2ff8874a4389c",
-  "changelog": "本版含 1.42（未单独下发）的内容。① 歌词页「屏幕常亮」在 Wear OS 上也改回窗口常亮标志：此前改用系统微光 / AOD 方案接管，刷新率撑不住逐字扫光与封面模糊，进歌词页明显掉帧，现已整体回退，Wear、OPPO 与手机统一走同一套逻辑（OPPO 行为与之前完全一致），常亮仍只在你停留歌词页时生效、离开即恢复系统息屏节奏。② Android 9 老表崩溃加固二：11-05 真机（展锐 CD_Watch_A）崩溃报告确证，异常从系统视图重绘的隐藏快速路径直接抛出、不经过上一版加拦截的那一层，因此 1.38 / 1.43 之前的守卫漏拦它。现在 Android 9 及以下把「子视图失效」转为「宿主整体失效」，强制系统走正常重建路径，使异常回到可捕获、可丢帧的那一层；同时给 Material 主题的公告弹窗补上显示 / 关闭记录（它有自己的窗口，宿主覆盖不到），便于下次同类报告直接定性。除以上两项外无功能变化。",
+  "versionCode": 92,
+  "versionName": "1.44",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.44/netmusiclite-1.44.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.44/netmusiclite-1.44.apk",
+  "sha256": "9a5a9f7f99864bb4141758acd30e50bc1e21dffc1105cc4c360ad36abca74911",
+  "changelog": "本版为播放服务规范化整改，界面外观不变。① 修 OPPO / Android 11 上「从后台拉起播放时崩溃」：前台路径改回直接启动服务，只有后台拉起才走带时限的前台服务契约，并加 3.8 秒看门狗 —— 若超时仍未进入前台，主动取消契约而不是让系统抛异常杀进程（依据 1.43 真机崩溃报告）。② 接入音频焦点：申请、监听、闪避与放弃齐全，别的软件提示音时自动压低音量、通话或导航播报时暂停，结束后按恢复意图自动续播，不再与其他音频应用抢声。③ 通知体验：点通知直达播放页（游客模式的路由也已放行），通知带封面大图标（取图失败自动异步重试），通知不再显示时间戳，通知权限改为首次真正播放时才申请、被拒仍可正常听。④ 侧边音量键可直接调节播放音量。",
   "force": false,
-  "updatedAt": "2026-11-06"
+  "updatedAt": "2026-11-07"
 }

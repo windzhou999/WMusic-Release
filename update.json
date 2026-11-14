@@ -1,10 +1,10 @@
 {
-  "versionCode": 97,
-  "versionName": "1.5.1",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.5.1/netmusiclite-1.5.1.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.5.1/netmusiclite-1.5.1.apk",
-  "sha256": "528c60ade6ea0576d90f3d8771a5489d392ebdb20cd00b56ca4e6a64f65003b5",
-  "changelog": "抽歌页倒影三项收尾。① 不再出现「先清晰、几百毫秒后才变糊」的跳变：模糊图尚未算好时，先用同一份内容缩小录制再放大，做一张廉价糊图占位，倒影既不会空着、也不先露清晰图，预高斯图就绪后无缝替换；只有非图片封面或等待超时才退回清晰倒影。② 倒影模糊出得更快：去掉首次探测的 120ms 延迟，进页直接查磁盘缓存，之后从 45ms 起快速轮询（原 400ms），封面一就绪立刻出图。③ 倒影亮度再提高 20%（0.312 → 0.374），观感更接近预期。",
+  "versionCode": 98,
+  "versionName": "1.5.2",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.5.2/netmusiclite-1.5.2.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.5.2/netmusiclite-1.5.2.apk",
+  "sha256": "5cd723f6bacf40c35f2c152de95d59f3675be6158e081a6ddfcf26be5bfd0ffd",
+  "changelog": "三项播放与外设修复。① 睡眠模式 / 熄屏下耳机媒体键没反应：耳机实体键走系统媒体通道、熄屏是它的常态，此前被防自动续播的「熄屏」「冷启动 3 秒」两道闸门误拦；现在只要耳机在输出口，这两道闸门对它放行（刚亮屏 800ms 的闸门保持不变，继续拦 ROM 自动恢复播放）。② Android 9 连 A2DP 耳机调音量不生效：系统流音量写入后会回读校验，确认系统没收就自动改调播放器增益，音量条仍然可调；用户音量与闪避、睡眠定时增益相乘，切歌或提示音过后不会突然顶回满音量。③ 会话保活：按主页键回表盘后，系统媒体卡片与「正在播放」页不再消失（此前系统媒体会话在任务移除时被一并关闭）。",
   "force": false,
-  "updatedAt": "2026-11-08"
+  "updatedAt": "2026-11-13"
 }

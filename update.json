@@ -1,10 +1,10 @@
 {
-  "versionCode": 98,
-  "versionName": "1.5.2",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.5.2/netmusiclite-1.5.2.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.5.2/netmusiclite-1.5.2.apk",
-  "sha256": "5cd723f6bacf40c35f2c152de95d59f3675be6158e081a6ddfcf26be5bfd0ffd",
-  "changelog": "三项播放与外设修复。① 睡眠模式 / 熄屏下耳机媒体键没反应：耳机实体键走系统媒体通道、熄屏是它的常态，此前被防自动续播的「熄屏」「冷启动 3 秒」两道闸门误拦；现在只要耳机在输出口，这两道闸门对它放行（刚亮屏 800ms 的闸门保持不变，继续拦 ROM 自动恢复播放）。② Android 9 连 A2DP 耳机调音量不生效：系统流音量写入后会回读校验，确认系统没收就自动改调播放器增益，音量条仍然可调；用户音量与闪避、睡眠定时增益相乘，切歌或提示音过后不会突然顶回满音量。③ 会话保活：按主页键回表盘后，系统媒体卡片与「正在播放」页不再消失（此前系统媒体会话在任务移除时被一并关闭）。",
+  "versionCode": 99,
+  "versionName": "1.5.3",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.5.3/netmusiclite-1.5.3.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.5.3/netmusiclite-1.5.3.apk",
+  "sha256": "e485b08577c6609b2df381bb39b7262634da28e4c37fffc30c1dfdb78ead2edd",
+  "changelog": "两项稳定性改进。① 2GB 小内存手表「正常播放不杀后台、一切歌就被杀」：切歌与暂停的间隙里前台服务不再撤掉——开始载歌即标记保活、取址失败自动跳歌也不撤服务、暂停后保留 2 分钟宽限、来电/导航等临时打断期间同样保持前台；系统报内存压力时先释放可再生的封面内存缓存与页面详情缓存（我喜欢、歌单、每日推荐等首屏列表不动），降低被系统或厂商清理挑中的概率。②「收藏的专辑」列表与专辑详情（歌曲列表）现在点开即写入本地缓存，与歌单一样支持断网再进：列表刷新失败时用上次快照兜底，专辑详情断网也能看上次加载的歌曲与收藏态。",
   "force": false,
-  "updatedAt": "2026-11-13"
+  "updatedAt": "2026-11-15"
 }

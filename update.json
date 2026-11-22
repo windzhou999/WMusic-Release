@@ -1,10 +1,10 @@
 {
-  "versionCode": 99,
-  "versionName": "1.5.3",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.5.3/netmusiclite-1.5.3.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.5.3/netmusiclite-1.5.3.apk",
-  "sha256": "e485b08577c6609b2df381bb39b7262634da28e4c37fffc30c1dfdb78ead2edd",
-  "changelog": "两项稳定性改进。① 2GB 小内存手表「正常播放不杀后台、一切歌就被杀」：切歌与暂停的间隙里前台服务不再撤掉——开始载歌即标记保活、取址失败自动跳歌也不撤服务、暂停后保留 2 分钟宽限、来电/导航等临时打断期间同样保持前台；系统报内存压力时先释放可再生的封面内存缓存与页面详情缓存（我喜欢、歌单、每日推荐等首屏列表不动），降低被系统或厂商清理挑中的概率。②「收藏的专辑」列表与专辑详情（歌曲列表）现在点开即写入本地缓存，与歌单一样支持断网再进：列表刷新失败时用上次快照兜底，专辑详情断网也能看上次加载的歌曲与收藏态。",
+  "versionCode": 114,
+  "versionName": "1.6.2",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.6.2/netmusiclite-1.6.2.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.6.2/netmusiclite-1.6.2.apk",
+  "sha256": "e173ec81239eb0fd02a3be2edc9730b4d03178735808df354431f2511eeaf4fe",
+  "changelog": "自 1.5.3 起累计更新，中间版本（1.5.4–1.6.1）均未单独下发，本版一次到位。新增：① 本地音乐（下载）页「专辑」栏目改为「歌单」——下载的歌按来源歌单分组，点进去看完整歌曲，没有来源的按专辑兜底、连专辑都没有的归「单曲」；② 歌单页顶部新增「一键下载全部」；③ 设置新增「WiFi 日推自动缓存」（默认关）：WiFi 下进入软件即按当前音质缓存当日日推，次日自动删除，当日手动下载的保留；④ 账号中心：关注 / 粉丝可点进列表，标注「累计听歌」的含义，补充第三方绑定说明，登录设备可逐个退出；⑤ 私信默认进入好友聊天列表（按聊天时间倒序），顶部「艺人消息」胶囊集中歌手 / 音乐人会话，不再混在好友列表；⑥ 手机号登录按官方 App 口径改走 eapi 优先的三通道回退，修「接口未找到 / 环境不安全」，验证码发码端点同步更新，登录页可滚动、手机号入口上移；⑦ m3e 主题按下按钮放大、相邻按钮被挤窄（命中区不变），旋转封面角度跨页面继承。修复：经典主题按钮文字裁切、返回 / 退出转场卡顿与衔接、一键下载按钮与播放键对齐、Android 11 上下载保存的兼容性崩溃、登录成功后红心与页面缓存立即重建。",
   "force": false,
-  "updatedAt": "2026-11-15"
+  "updatedAt": "2026-11-22"
 }

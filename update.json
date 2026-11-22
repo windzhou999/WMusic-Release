@@ -1,10 +1,10 @@
 {
-  "versionCode": 114,
-  "versionName": "1.6.2",
-  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.6.2/netmusiclite-1.6.2.apk",
-  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.6.2/netmusiclite-1.6.2.apk",
-  "sha256": "e173ec81239eb0fd02a3be2edc9730b4d03178735808df354431f2511eeaf4fe",
-  "changelog": "自 1.5.3 起累计更新，中间版本（1.5.4–1.6.1）均未单独下发，本版一次到位。新增：① 本地音乐（下载）页「专辑」栏目改为「歌单」——下载的歌按来源歌单分组，点进去看完整歌曲，没有来源的按专辑兜底、连专辑都没有的归「单曲」；② 歌单页顶部新增「一键下载全部」；③ 设置新增「WiFi 日推自动缓存」（默认关）：WiFi 下进入软件即按当前音质缓存当日日推，次日自动删除，当日手动下载的保留；④ 账号中心：关注 / 粉丝可点进列表，标注「累计听歌」的含义，补充第三方绑定说明，登录设备可逐个退出；⑤ 私信默认进入好友聊天列表（按聊天时间倒序），顶部「艺人消息」胶囊集中歌手 / 音乐人会话，不再混在好友列表；⑥ 手机号登录按官方 App 口径改走 eapi 优先的三通道回退，修「接口未找到 / 环境不安全」，验证码发码端点同步更新，登录页可滚动、手机号入口上移；⑦ m3e 主题按下按钮放大、相邻按钮被挤窄（命中区不变），旋转封面角度跨页面继承。修复：经典主题按钮文字裁切、返回 / 退出转场卡顿与衔接、一键下载按钮与播放键对齐、Android 11 上下载保存的兼容性崩溃、登录成功后红心与页面缓存立即重建。",
+  "versionCode": 115,
+  "versionName": "1.6.3",
+  "apk": "https://github.com/windzhou999/WMusic-Release/releases/download/v1.6.3/netmusiclite-1.6.3.apk",
+  "mirror": "https://ghfast.top/https://github.com/windzhou999/WMusic-Release/releases/download/v1.6.3/netmusiclite-1.6.3.apk",
+  "sha256": "667ddecff0d0dd25910514e1f81f62f55e3d7ffd04ced5782311d23abfc7550e",
+  "changelog": "修复进入下载「歌单」分组时主线程卡死（ANR）：分组排序每次比较都会重新查下载时间，老索引兜底还要扫文件系统，本地歌几千首时主线程被拖住数秒。现在排序前一次性算好下载时间、下载目录只解析一次、同一首歌的修改时间只查一次，媒体库导入的歌也不再白跑文件探测。本地歌曲较多时进入歌单分组不再卡顿。",
   "force": false,
   "updatedAt": "2026-11-22"
 }
